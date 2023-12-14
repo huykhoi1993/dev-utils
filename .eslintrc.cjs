@@ -7,6 +7,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
     'prettier',
   ],
   overrides: [
@@ -52,5 +54,16 @@ module.exports = {
     ],
     'vue/attributes-order': 'error',
     'vue/multi-word-component-names': 'off',
+
+    'import/newline-after-import': 'error',
+    'import/no-unresolved': 0,
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        moduleDirectory: ['node_modules', 'src/'],
+      },
+    },
   },
 };

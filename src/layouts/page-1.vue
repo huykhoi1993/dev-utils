@@ -2,7 +2,8 @@
 
 <template>
   <div>
-    <HelloWorld msg="hehehe" />
+    layout page-1
+    <RouterView />
   </div>
 </template>
 

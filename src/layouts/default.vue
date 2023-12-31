@@ -2,8 +2,9 @@
 
 <template>
   <div>
-    <HelloWorld msg="hehehe" />
+    <p>default</p>
+    <RouterView />
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

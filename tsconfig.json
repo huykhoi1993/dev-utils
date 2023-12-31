@@ -26,7 +26,10 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "types": [
+      "vite-plugin-vue-layouts/client"
+    ]
   },
   "types": [
     "vite/client",
@@ -37,6 +40,7 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "./typed-router.d.ts",
+    "./components.d.ts",
     "./auto-imports.d.ts",
   ],
   "references": [

@@ -1,7 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <button class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">...</button>
+  <Button>sdsfds</Button>
 </template>
-
-<style scoped></style>

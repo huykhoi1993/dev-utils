@@ -6,6 +6,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router';
 import VueRouter from 'unplugin-vue-router/vite';
 import { defineConfig, loadEnv } from 'vite';
 import Layouts from 'vite-plugin-vue-layouts';
+import svgLoader from 'vite-svg-loader';
 
 const env = loadEnv('all', process.cwd());
 
@@ -34,6 +35,7 @@ export default defineConfig({
       },
     }),
     Layouts(),
+    svgLoader(),
   ],
   define: {
     'process.env': {},

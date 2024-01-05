@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "build:prod": "yarn build && yarn preview",
+    "clean": "rm -rf ./dist",
     "lint": "eslint --fix --ext .ts,.js,.vue",
     "preview": "vite preview",
     "prepare": "husky install"

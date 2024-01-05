@@ -29,5 +29,6 @@
   },
   "typescript.preferences.autoImportFileExcludePatterns": [
     "vue-router"
-  ]
+  ],
+  "css.lint.unknownAtRules": "ignore"
 }

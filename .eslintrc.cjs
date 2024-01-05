@@ -43,7 +43,6 @@ module.exports = {
       'error',
       { order: ['defineOptions', 'defineProps', 'defineEmits', 'defineSlots'] },
     ],
-    'vue/html-button-has-type': 'error',
     'vue/no-duplicate-attr-inheritance': 'error',
     'vue/no-multiple-objects-in-class': 'error',
     'vue/no-potential-component-option-typo': [
